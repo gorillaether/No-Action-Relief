@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEC No-Action Relief for Digital Asset Custodians</title>
+    <style>
+        /* Basic Styles */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* Slideshow Container */
+        .slideshow-container {
+            position: relative;
+            max-width: 900px;
+            width: 100%;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .slide-content {
+            padding: 40px 50px;
+            flex-grow: 1;
+        }
+
+        /* Individual Slides */
+        .slide {
+            display: none; /* Hidden by default */
+            animation: fadeIn 0.8s;
+        }
+        .slide.active {
+            display: block; /* Shown when active */
+        }
+
+        /* Slide Content Styling */
+        .slide h1 {
+            font-size: 2em;
+            color: #1a0dab;
+            margin-bottom: 10px;
+            line-height: 1.2;
+        }
+        .slide h2 {
+            font-size: 1.6em;
+            color: #0056b3;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        .slide .date {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .slide p, .slide li {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 1em;
+        }
+        .slide ul {
+            list-style-type: disc;
+            padding-left: 25px;
+        }
+        .slide strong {
+            color: #222;
+        }
+        .footnotes {
+            font-size: 0.8em;
+            color: #555;
+            margin-top: 30px;
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+        }
+        .footnotes p {
+            font-size: 1em; /* relative to parent */
+            line-height: 1.4;
+            margin-bottom: 0.5em;
+        }
+
+
+        /* Navigation Buttons */
+        .navigation {
+            background-color: #f8f9fa;
+            border-top: 1px solid #dee2e6;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        .nav-btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 0 10px;
+            transition: background-color 0.3s ease;
+        }
+        .nav-btn:hover {
+            background-color: #0056b3;
+        }
+        .nav-btn:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+        
+        /* Slide Counter */
+        .slide-counter {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 0.9em;
+            color: #888;
+        }
+
+        /* Fade Animation */
+        @keyframes fadeIn {
+            from { opacity: 0.4; }
+            to { opacity: 1; }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            .slide-content {
+                padding: 25px 20px;
+            }
+            .slide h1 {
+                font-size: 1.5em;
+            }
+            .slide h2 {
+                font-size: 1.3em;
+            }
+            .slide p, .slide li {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="slideshow-container">
+        <div class="slide-counter" id="slideCounter"></div>
+        <div class="slide-content">
+
+            <div class="slide active">
+                <h1>SEC Staff Issues No-Action Relief Permitting Use of State-Chartered Trust Companies as Qualified Custodians of Digital Assets</h1>
+                <p class="date">October 3, 2025</p>
+                <p>This presentation summarizes the no-action letter issued by the SEC's Division of Investment Management, providing critical clarity for registered investment advisers (RIAs) and funds on the custody of crypto-assets.</p>
+            </div>
+
+            <div class="slide">
+                <h2>The Core Relief</h2>
+                <p>The SEC's Division of Investment Management issued a no-action letter confirming that RIAs and registered funds may treat certain state-chartered trust companies as <strong>“banks”</strong> for the purpose of maintaining custody of crypto-assets and related cash.</p>
+                <p>This means the staff would not recommend enforcement action under the Investment Advisers Act of 1940 or the Investment Company Act of 1940 for using these institutions as qualified custodians for digital assets.</p>
+            </div>
+
+            <div class="slide">
+                <h2>Background: The Custody Rules</h2>
+                <p><strong>Investment Company Act of 1940 (Sections 17(f) & 26(a)):</strong> Generally requires registered funds to place securities and investments with specified custodians, primarily “banks”.</p>
+                <p><strong>Advisers Act (Rule 206(4)-2):</strong> Known as the “custody rule,” it requires RIAs with custody of client funds or securities to maintain those assets with a “qualified custodian,” which includes a “bank”.</p>
+            </div>
+            
+            <div class="slide">
+                <h2>Background: The "Bank" Definition Debate</h2>
+                <p>Whether a state-chartered trust company meets the definition of a “bank” has long been debated.</p>
+                <p>The Advisers Act and 1940 Act define a “bank” to include state-chartered trust companies, provided that:</p>
+                <ul>
+                    <li>A substantial portion of their business involves receiving deposits or exercising fiduciary powers similar to national banks.</li>
+                    <li>They are supervised by a state or federal authority.</li>
+                    <li>They are not operated to evade the Acts.</li>
+                </ul>
+            </div>
+            
+            <div class="slide">
+                <h2>The Staff's Rationale for Relief</h2>
+                 <p>The Division acknowledged that state-chartered trust companies have become <strong>“critical providers”</strong> of custody services for crypto assets amidst growing demand.</p>
+                 <p>The staff emphasized the increasing sophistication, regulatory oversight, and systemic importance of these institutions, noting that many now function at a level comparable to national banks.</p>
+            </div>
+
+            <div class="slide">
+                <h2>Conditions for No-Action Relief</h2>
+                <p>The relief is conditioned on advisers and funds satisfying several investor protection safeguards:</p>
+                <ul>
+                    <li><strong>Diligence and Oversight:</strong> The adviser or fund must conduct initial and annual assessments of the trust company’s ability to provide custodial services.</li>
+                    <li><strong>Policies and Procedures:</strong> The adviser or fund must believe the trust company has policies reasonably designed to safeguard cryptoassets.</li>
+                    <li><strong>Financial Statements and Controls:</strong> The trust company must provide audited financial statements (GAAP) and a SOC-1 (or equivalent) internal control report.</li>
+                </ul>
+            </div>
+            
+            <div class="slide">
+                <h2>Conditions for No-Action Relief (cont.)</h2>
+                <ul>
+                    <li><strong>Risk Disclosure:</strong> Advisers and funds must disclose material risks of using the trust company to clients or fund boards and determine it's in their best interest.</li>
+                    <li><strong>Custody Agreement:</strong> A written agreement must protect against unauthorized use or rehypothecation of assets and ensure segregation of client/fund assets from the trust company’s assets.</li>
+                </ul>
+                <p><strong>Important Note:</strong> The staff underscored that its relief is fact-specific and a departure from these conditions could alter its view.</p>
+            </div>
+
+            <div class="slide">
+                <h2>Our Take: Key Implications</h2>
+                <ul>
+                    <li><strong>Important but Expected Development:</strong> The relief provides long-sought clarity for advisers and funds engaging in digital asset strategies.</li>
+                    <li><strong>A Principles-Based Approach:</strong> The relief focuses on principles of safekeeping (protecting against theft, loss, misuse) rather than specific technology requirements, which prevents it from becoming quickly outdated.</li>
+                </ul>
+            </div>
+
+            <div class="slide">
+                <h2>Our Take: Future Outlook</h2>
+                <ul>
+                    <li><strong>Remaining Self-Custody Questions:</strong> While not directly addressing self-custody, the letter offers a framework that could inform future solutions.</li>
+                    <li><strong>Future Rulemaking Likely:</strong> The SEC’s Spring 2025 regulatory agenda includes custody rule amendments, indicating more comprehensive rulemaking is on the horizon. This will likely address self-custody and other innovative solutions.</li>
+                </ul>
+            </div>
+            
+            <div class="slide">
+                <h2>Footnotes & Sources</h2>
+                <div class="footnotes">
+                    <p><strong>1. State Trust Company:</strong> A legal entity organized under state law that is supervised by a state authority and permitted to exercise fiduciary powers.</p>
+                    <p><strong>2. No-Action Letter:</strong> Simpson Thacher & Bartlett (Sept. 30, 2025).</p>
+                    <p><strong>3. Cash/Cash Equivalents:</strong> Money or liquid assets maintained for the purchase, sale, or settlement of cryptoassets.</p>
+                    <p><strong>4. Historical Context:</strong> The industry has long sought clarity. Wyoming's 2020 guidance was met with skepticism from the Division, which was withdrawn in May 2025, paving the way for this letter.</p>
+                    <p><strong>5. Future Rulemaking:</strong> Spring 2025 Unified Agenda of Regulatory and Deregulatory Actions.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="navigation">
+            <button class="nav-btn" id="prevBtn">Previous</button>
+            <button class="nav-btn" id="nextBtn">Next</button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const slides = document.querySelectorAll('.slide');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const slideCounter = document.getElementById('slideCounter');
+            let currentSlide = 0;
+
+            function showSlide(index) {
+                // Hide the current slide
+                slides[currentSlide].classList.remove('active');
+
+                // Update the current slide index
+                currentSlide = index;
+
+                // Handle wrapping
+                if (currentSlide >= slides.length) {
+                    currentSlide = 0;
+                }
+                if (currentSlide < 0) {
+                    currentSlide = slides.length - 1;
+                }
+
+                // Show the new slide
+                slides[currentSlide].classList.add('active');
+                
+                // Update button states
+                updateNavButtons();
+                
+                // Update slide counter
+                slideCounter.textContent = `Slide ${currentSlide + 1} of ${slides.length}`;
+            }
+            
+            function updateNavButtons() {
+                // This function can be used to disable buttons at the start/end if you don't want wrapping
+                // For now, we allow wrapping, so buttons are always enabled.
+                // Example of disabling:
+                // prevBtn.disabled = (currentSlide === 0);
+                // nextBtn.disabled = (currentSlide === slides.length - 1);
+            }
+
+            // Event Listeners
+            prevBtn.addEventListener('click', () => {
+                showSlide(currentSlide - 1);
+            });
+
+            nextBtn.addEventListener('click', () => {
+                showSlide(currentSlide + 1);
+            });
+            
+            // Keyboard navigation
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'ArrowRight') {
+                    showSlide(currentSlide + 1);
+                } else if (e.key === 'ArrowLeft') {
+                    showSlide(currentSlide - 1);
+                }
+            });
+
+            // Initial setup
+            showSlide(0);
+        });
+    </script>
+
+</body>
+</html>
